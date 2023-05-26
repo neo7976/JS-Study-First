@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Урок 11</title>
+</head>
+<!--Появляется tag ри загрузке страницы-->
+<body onload="alert('Вы загрузили страницу')">
+<!--Один клик-->
+<button onclick="onClickButton()">Нажми на меня</button><p></p>
+<!--Два клика-->
+<button name="mainButton" ondblclick="onClickButtonThis(this)">Нажми на меня дважды</button><br><br>
+<!--<p onclick="onClickButton()">Нажми на меня</p>-->
+<!--При наведении мыши-->
+<!--<button onmouseover="onClickButton()">Наведи на меня</button><p></p>-->
+<!--Когда убираем наведение мыши-->
+<!--<button onmouseout="onClickButton()">Убери от меня</button><p></p>-->
+
+
+<input oninput="onInput(this)"> Запиши данные</input><p></p>
+
+<script src="main.js"></script>
+
+</body>
+</html>
