@@ -1,0 +1,13 @@
+.countries {
+    display: flex;
+
+    font-size: 1.8rem;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
