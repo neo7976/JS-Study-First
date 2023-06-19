@@ -4,10 +4,47 @@
     font-size: 1.8rem;
     opacity: 0;
     transition: opacity 1s;
+    margin-left: 8px;
+    padding: 25px 25px;
 }
 
 .container {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.neighbour::before {
+    content: 'Соседняя страна';
+    width: 100%;
+    position: absolute;
+    top: -5rem;
+
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(128, 128, 128);
+}
+
+.neighbour {
+    transform: scale(0.7) translateY(1rem);
+    margin-left: 0;
+}
+
+.country_img {
+    width: 35rem;
+    height: 17rem;
+    object-fit: cover;
+    background-color: rgb(230, 230, 230);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.country {
+    background-color: aliceblue;
+    box-shadow: 0 2rem 4rem 1rem rgba(0, 0, 0, 0.1);
+    font-size: 1.6rem;
+    width: 35rem;
+    border-radius: 0.8rem;
 }
