@@ -83,6 +83,11 @@ function getCharacterModal(character) {
  */
 function fetchCharacters() {
     // TODO 1
+    let uri = 'https://bravevillainousexponents.dbronskih.repl.co/characters';
+
+   return fetch(uri)
+        .then(response => response.json());
+        // .then(json => console.log(json));
 }
 
 /**
