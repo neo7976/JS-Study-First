@@ -1,0 +1,13 @@
+db.users.insert(
+    {
+        name: "Dmitrii",
+        age: 25
+    }
+);
+
+db.users.insertMany ([
+{name: "Sol", age: 24},
+{name: "Olga", age: 25},
+{name: "Liza", age: 26},
+{name: "Fedor", age: 33}
+])
